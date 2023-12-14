@@ -1,0 +1,69 @@
+$multiplier: 20;
+
+@for $i from 0 through $multiplier {
+  $size: $i * 4 + px;
+
+  .gap-#{$i * 4} {
+    gap: $size;
+  }
+
+  .p-#{$i * 4} {
+    padding: $size;
+  }
+
+  .px-#{$i * 4} {
+    padding-left: $size;
+    padding-right: $size;
+  }
+
+  .py-#{$i * 4} {
+    padding-top: $size;
+    padding-bottom: $size;
+  }
+
+  .pl-#{$i * 4} {
+    padding-left: $size;
+  }
+
+  .pr-#{$i * 4} {
+    padding-right: $size;
+  }
+
+  .pt-#{$i * 4} {
+    padding-top: $size;
+  }
+
+  .pb-#{$i * 4} {
+    padding-bottom: $size;
+  }
+
+  .m-#{$i * 4} {
+    margin: $size;
+  }
+
+  .mx-#{$i * 4} {
+    margin-left: $size;
+    margin-right: $size;
+  }
+
+  .my-#{$i * 4} {
+    margin-top: $size;
+    margin-bottom: $size;
+  }
+
+  .ml-#{$i * 4} {
+    margin-left: $size;
+  }
+
+  .mr-#{$i * 4} {
+    margin-right: $size;
+  }
+
+  .mt-#{$i * 4} {
+    margin-top: $size;
+  }
+
+  .mb-#{$i * 4} {
+    margin-bottom: $size;
+  }
+}

@@ -1,0 +1,18 @@
+@mixin flex($jc: flex-start, $ai: stretch, $gap: 0, $direction: row) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $jc;
+  align-items: $ai;
+  gap: $gap;
+}
+
+// 當用div包住svg or img 時，可使用此mixin
+@mixin picSize($w, $h) {
+  width: $w;
+  height: $h;
+  svg,
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}

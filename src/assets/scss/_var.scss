@@ -1,0 +1,142 @@
+// 黑色彩階 | Black Tone Color
+$Black: #000000;
+$Black-Tone-10: #111;
+$Black-Tone-20: #212121;
+$Black-Tone-30: #424242;
+$Black-Tone-40: #616161;
+$Black-Tone-50: #757575;
+$Black-Tone-60: #9e9e9e;
+$Black-Tone-70: #bdbdbd;
+$Black-Tone-80: #e0e0e0;
+$Black-Tone-90: #f5f5f5;
+$Black-Tone-95: #fafafa;
+$White: #ffffff;
+
+// 提示訊息顏色 | Alert Message Color
+$Security-Color-Default: #a6cd38;
+$Security-Color-Dark: #72ad26;
+$Security-Color-Tint: #e6f5df;
+$Hightlight-Color-Default: #ffc617;
+$Hightlight-Color-Dark: #f19f00;
+$Hightlight-Color-Tint: #fffcf1;
+$Alert-Color-Default: #d8361c;
+$Alert-Color-Dark: #ae4444;
+$Alert-Color-Tint: #ffe6e5;
+
+// 主題顏色 | Theme Color
+$Theme-Color-Pink-Dark: #e3708c;
+$Theme-Color-Red-Dark: #ae4444;
+$Theme-Color-Orange-Dark: #ed6a45;
+$Theme-Color-Yellow-Dark: #ffb800;
+$Theme-Color-Green-Dark: #4c9746;
+$Theme-Color-Teal-Dark: #007a88;
+$Theme-Color-Blue-Dark: #125783;
+$Theme-Color-Purple-Dark: #674a8d;
+$Theme-Color-Brown-Dark: #6c4f42;
+
+$Theme-Color-Pink: #f4aed0;
+$Theme-Color-Red: #d8361c;
+$Theme-Color-Orange: #f7931e;
+$Theme-Color-Yellow: #fd6;
+$Theme-Color-Green: #78be72;
+$Theme-Color-Teal: #00979c;
+$Theme-Color-Blue: #1d7eba;
+$Theme-Color-Purple: #9b7bc9;
+$Theme-Color-Brown: #9d7d6f;
+
+$Theme-Color-Pink-Tint: #ffe0ef;
+$Theme-Color-Red-Tint: #ffe6e5;
+$Theme-Color-Orange-Tint: #ffe3c2;
+$Theme-Color-Yellow-Tint: #fff1c0;
+$Theme-Color-Green-Tint: #daedd8;
+$Theme-Color-Teal-Tint: #e4f6f7;
+$Theme-Color-Blue-Tint: #ceecff;
+$Theme-Color-Purple-Tint: #dac9f1;
+$Theme-Color-Brown-Tint: #d5c1b8;
+
+// 專案顏色 | Project Color
+$Primary-Color: #004081;
+$Primary-Color-Dark: #002f5e;
+$Primary-Color-Tint: #d2e8ff;
+$Primary-Color-BG: #f0f4f9;
+
+$Secondary-Color: #3d8ab6;
+$Secondary-Color-Dark: #1a6f9f;
+$Secondary-Color-Tint: #c4d5e5;
+$Secondary-Color-BG: #ecfaff;
+
+// 框架顏色 | Main Structure Color
+$Header-Color: $Primary-Color;
+$Background-Color: $Primary-Color-BG;
+$Section-Color: $White;
+$Sidebar-Color: $White;
+$Sidebar-Color-Checked: $Primary-Color-BG;
+
+// 物件顏色 | Component Color
+$Table-Color: $White;
+$Table-Border: $Black-Tone-60;
+$Table-Header: $Primary-Color-Dark;
+$Table-Row-Color: $Black-Tone-90;
+$Table-Header-Text: $White;
+$Table-Content-Text: $Black-Tone-10;
+
+// 按鈕 Button
+$Primary-Button-Default: $Primary-Color;
+$Primary-Button-Hover: $Primary-Color-Dark;
+$Primary-Button-Text: $White;
+
+$Secondary-Button-Default: $Secondary-Color;
+$Secondary-Button-Hover: $Secondary-Color-Dark;
+$Secondary-Button-Text: $White;
+
+$Button-Disable-Text: $Black-Tone-60;
+$Button-Disable: $Black-Tone-80;
+
+// 頁籤 Tab
+$Tab-Default: $Primary-Color-BG;
+$Tab-Hover: $Primary-Color;
+$Tab-Active: $Primary-Color-Dark;
+$Tab-Active-BG: $Primary-Color-BG;
+$Tab-Disable: $Black-Tone-60;
+$Tab-Disable-BG: $Black-Tone-80;
+
+// 圖表 Chart
+$Chart-Button-Text: $Black-Tone-50;
+$Chart-Axis-Text: $Black-Tone-30;
+$Chart-Axis-Line: $Black-Tone-80;
+$Chart-Focus-Line: $Black-Tone-50;
+$Chart-Label-BG: $Black-Tone-40;
+$Chart-Label-Text: $White;
+$Chart-Legend-Text: $Black-Tone-10;
+
+// Margin Settings
+
+$Margin_4: 4px;
+$Margin_8: 8px;
+$Margin_12: 12px;
+$Margin_16: 16px;
+$Margin_20: 20px;
+$Margin_24: 24px;
+$Margin_32: 32px;
+$Margin_40: 40px;
+$Margin_48: 48px;
+$Margin_56: 56px;
+$Margin_64: 64px;
+
+// Padding Settings
+$Padding_4: 4px;
+$Padding_8: 8px;
+$Padding_12: 12px;
+$Padding_16: 16px;
+$Padding_20: 20px;
+$Padding_24: 24px;
+$Padding_32: 32px;
+$Padding_40: 40px;
+$Padding_48: 48px;
+$Padding_56: 56px;
+$Padding_60: 60px;
+$Padding_64: 64px;
+$Padding_80: 80px;
+
+//  自定義變數
+$myTransition: 0.3s ease-in-out;

@@ -1,0 +1,43 @@
+* {
+  // firefox 修改scrollbar 相較於chrome 較不彈性
+  // firefox scrollbar 樣式
+  scrollbar-color: $Primary-Color;
+  scrollbar-width: thin;
+  // scrollbar-gutter 可以預設都要留scrollbar的位置
+  // scrollbar-gutter:;
+  /* 設定 scrollbar 寬度 */
+  &::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  /* 設定 scrollbar 的背景顏色 */
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  /* 設定 scrollbar 滑塊的顏色 */
+  &::-webkit-scrollbar-thumb {
+    background-color: $Primary-Color;
+    border-radius: 7px;
+  }
+
+  /* 設定滑塊在滑過時的顏色 */
+  &::-webkit-scrollbar-thumb:hover {
+    // width: 15px;
+    background-color: $Primary-Color-Dark;
+  }
+
+  box-sizing: border-box !important;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Noto Sans TC', sans-serif;
+  // transition: $myTransition;
+}
+
+#app {
+  height: 100vh;
+  box-sizing: border-box !important;
+}
